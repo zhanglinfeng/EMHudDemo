@@ -14,6 +14,13 @@
 		D108F4BA1BE2FFE300A4BCF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D108F4B91BE2FFE300A4BCF3 /* Images.xcassets */; };
 		D108F4BD1BE2FFE300A4BCF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D108F4BB1BE2FFE300A4BCF3 /* LaunchScreen.xib */; };
 		D108F4C91BE2FFE300A4BCF3 /* EMHudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D108F4C81BE2FFE300A4BCF3 /* EMHudDemoTests.m */; };
+		D108F4D51BE302F000A4BCF3 /* EMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = D108F4D41BE302F000A4BCF3 /* EMHud.m */; };
+		D108F4D71BE3035900A4BCF3 /* EMHud.xib in Resources */ = {isa = PBXBuildFile; fileRef = D108F4D61BE3035900A4BCF3 /* EMHud.xib */; };
+		D1BBFE171BE329C100AE4BEB /* HUD_NO.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BBFE131BE329C100AE4BEB /* HUD_NO.png */; };
+		D1BBFE181BE329C100AE4BEB /* HUD_NO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BBFE141BE329C100AE4BEB /* HUD_NO@2x.png */; };
+		D1BBFE191BE329C100AE4BEB /* HUD_YES.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BBFE151BE329C100AE4BEB /* HUD_YES.png */; };
+		D1BBFE1A1BE329C100AE4BEB /* HUD_YES@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BBFE161BE329C100AE4BEB /* HUD_YES@2x.png */; };
+		D1BBFE1C1BE33ECE00AE4BEB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BBFE1B1BE33ECE00AE4BEB /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		D108F4C21BE2FFE300A4BCF3 /* EMHudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMHudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D108F4C71BE2FFE300A4BCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D108F4C81BE2FFE300A4BCF3 /* EMHudDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMHudDemoTests.m; sourceTree = "<group>"; };
+		D108F4D31BE302F000A4BCF3 /* EMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMHud.h; sourceTree = "<group>"; };
+		D108F4D41BE302F000A4BCF3 /* EMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMHud.m; sourceTree = "<group>"; };
+		D108F4D61BE3035900A4BCF3 /* EMHud.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMHud.xib; sourceTree = "<group>"; };
+		D1BBFE131BE329C100AE4BEB /* HUD_NO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_NO.png; sourceTree = "<group>"; };
+		D1BBFE141BE329C100AE4BEB /* HUD_NO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_NO@2x.png"; sourceTree = "<group>"; };
+		D1BBFE151BE329C100AE4BEB /* HUD_YES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HUD_YES.png; sourceTree = "<group>"; };
+		D1BBFE161BE329C100AE4BEB /* HUD_YES@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_YES@2x.png"; sourceTree = "<group>"; };
+		D1BBFE1B1BE33ECE00AE4BEB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 		D108F4AB1BE2FFE300A4BCF3 /* EMHudDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D108F4D21BE302CE00A4BCF3 /* EMHud */,
 				D108F4B01BE2FFE300A4BCF3 /* AppDelegate.h */,
 				D108F4B11BE2FFE300A4BCF3 /* AppDelegate.m */,
 				D108F4B31BE2FFE300A4BCF3 /* ViewController.h */,
@@ -117,6 +133,29 @@
 				D108F4C71BE2FFE300A4BCF3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D108F4D21BE302CE00A4BCF3 /* EMHud */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBFE121BE329C100AE4BEB /* Images */,
+				D108F4D31BE302F000A4BCF3 /* EMHud.h */,
+				D108F4D41BE302F000A4BCF3 /* EMHud.m */,
+				D108F4D61BE3035900A4BCF3 /* EMHud.xib */,
+			);
+			path = EMHud;
+			sourceTree = "<group>";
+		};
+		D1BBFE121BE329C100AE4BEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D1BBFE1B1BE33ECE00AE4BEB /* icon.png */,
+				D1BBFE131BE329C100AE4BEB /* HUD_NO.png */,
+				D1BBFE141BE329C100AE4BEB /* HUD_NO@2x.png */,
+				D1BBFE151BE329C100AE4BEB /* HUD_YES.png */,
+				D1BBFE161BE329C100AE4BEB /* HUD_YES@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +238,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BBFE171BE329C100AE4BEB /* HUD_NO.png in Resources */,
+				D1BBFE181BE329C100AE4BEB /* HUD_NO@2x.png in Resources */,
+				D1BBFE1C1BE33ECE00AE4BEB /* icon.png in Resources */,
 				D108F4B81BE2FFE300A4BCF3 /* Main.storyboard in Resources */,
+				D108F4D71BE3035900A4BCF3 /* EMHud.xib in Resources */,
+				D1BBFE1A1BE329C100AE4BEB /* HUD_YES@2x.png in Resources */,
 				D108F4BD1BE2FFE300A4BCF3 /* LaunchScreen.xib in Resources */,
 				D108F4BA1BE2FFE300A4BCF3 /* Images.xcassets in Resources */,
+				D1BBFE191BE329C100AE4BEB /* HUD_YES.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D108F4B51BE2FFE300A4BCF3 /* ViewController.m in Sources */,
+				D108F4D51BE302F000A4BCF3 /* EMHud.m in Sources */,
 				D108F4B21BE2FFE300A4BCF3 /* AppDelegate.m in Sources */,
 				D108F4AF1BE2FFE300A4BCF3 /* main.m in Sources */,
 			);
@@ -349,9 +395,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EMHudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +409,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EMHudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +472,7 @@
 				D108F4CE1BE2FFE300A4BCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D108F4CF1BE2FFE300A4BCF3 /* Build configuration list for PBXNativeTarget "EMHudDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +481,7 @@
 				D108F4D11BE2FFE300A4BCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
