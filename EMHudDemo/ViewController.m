@@ -32,11 +32,11 @@
     [NSTimer scheduledTimerWithTimeInterval:1.5f target:self selector:@selector(delayMethod:) userInfo:hud repeats:NO];
 }
 - (IBAction)showActivityAndMessage:(id)sender {
-    hud = [EMHud EMHudShowActivityAndMessage:@"加载中..."];
+    hud = [EMHud EMHudShowActivityAndMessage:@"加载中加载中加载中"];
     [NSTimer scheduledTimerWithTimeInterval:1.5f target:self selector:@selector(delayMethod:) userInfo:hud repeats:NO];
 }
 - (IBAction)showMessage:(id)sender {
-    [EMHud EMHudShowMessage:@"未知错误！未知错误！未知错误！未知错误！未知错误！"];
+    [EMHud EMHudShowMessage:@"未知错误！未知错误！未知错误！未知错误！未知错误！未知错误！未知错误！未知错误！未知错误！未知错误！未知错误！"];
 }
 - (IBAction)showMessageAndImg:(id)sender {
     [EMHud EMHudShowMessage:@"登录失败！" Image:HUD_NO];

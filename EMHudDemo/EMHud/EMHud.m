@@ -49,7 +49,8 @@
                 currentView = [[NSBundle mainBundle]loadNibNamed:@"EMHud" owner:self options:nil][2];
                 currentView.layer.cornerRadius = 10;
                 UILabel *label = (UILabel *)[currentView viewWithTag:100];
-//                CGSize size = [message sizeWithFont:[UIFont systemFontOfSize:12]constrainedToSize:CGSizeMake(80, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+                CGSize size = [message sizeWithFont:[UIFont systemFontOfSize:12]constrainedToSize:CGSizeMake(80, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+                label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, 80, size.height);
                 
                 label.text = message;
             }
